@@ -1,0 +1,57 @@
+$Black: '../../lib/fonts/Black.ttf';
+$Bold: '../../lib/fonts/Bold.ttf';
+
+@font-face {
+    font-family: 'CookieBlack';
+    src: url($Black) format("truetype");
+}
+
+$Font-black: 'CookieBlack', sans-serif;
+
+$ButtonColor: #ffc107;
+$White: #ffffff;
+
+.Login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: $ButtonColor;
+    border-radius: 14px;
+    width: 200px;
+    height: 48px;
+}
+
+.Small {
+    font-size: 14px;
+    padding: 4px 4px;
+    line-height: 40px;
+
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-family: $Font-black;
+
+    color: $White;
+}
+
+.Signup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: $ButtonColor;
+    border-radius: 14px;
+    width: 200px;
+    height: 48px;
+}
