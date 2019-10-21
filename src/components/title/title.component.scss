@@ -1,6 +1,6 @@
 $Black: '../../lib/fonts/Black.ttf';
 $Bold: '../../lib/fonts/Bold.ttf';
-$Color: #536dfe;
+$Color: #42B2EB;
 
 @font-face {
     font-family: 'CookieBlack';
@@ -10,8 +10,10 @@ $Color: #536dfe;
 $Font-black: 'CookieBlack', sans-serif;
 
 .contained {
-    display: block;
-    margin-top: 7%;
+    // position: fixed;
+    // left: 43.3%;
+    // top: 15%;
+    padding: 8% 0 0 0;
 
     font-family: $Font-black;
     text-align: center;
